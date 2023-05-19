@@ -1,0 +1,997 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "hii",
+                                "hiii",
+                                "hiiii",
+                                "how are you",
+                                "good morning",
+                                "good afternoon",
+                                "good evening",
+                                "good night",
+                                "is anyone there?",
+                                "hello",
+                                "good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "hi",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hey :-)",
+                                "Hi there, what can I do for you?",
+                                "Hello!",
+                                "Hii!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "i am Leaving",
+                                "bye",
+                                "have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Bye! Come back soon :)"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you",
+                                "That's helpful",
+                                "Thank's a lot!",
+                                "Okay"
+                        ],
+                        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+                },
+                {
+                        "tag": "holidays",
+                        "patterns": [
+                                "When are holidays ? ",
+                                "What kinds of holidays are there?",
+                                "What holidays do we have?",
+                                "tell more about holidays",
+                                "holidays when ???",
+                                "which days are holidays ?",
+                                "How many days can we get after search sem ?" ,
+                                "Can we get study leave ?",
+                                "what are the biggest holidays we can get ??",
+                                "Are there any department wise special holiday ?"
+                        ],
+                        "responses": [""]
+                },
+                {
+                        "tag": "faculty",
+                        "patterns": [
+                                "Do you know the teachers ?",
+                                "Who are the teachers ?",
+                                "Can you tell more about teachers?",
+                                "Tell me about teachers  ",
+                                "more info on teachers",
+                                "what are the teachers ?",
+                                "tell more about the teachers"
+
+                        ],
+                        "responses": [
+                                "Our Prinicipal is Dr. Sunil Chavan \n Our Placement Cell has N Kharaje sir, and many more "
+                        ]
+                },
+
+                {
+                        "tag": "creator",
+                        "patterns": [
+
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
+                                "who created you",
+                                "your developers",
+                                "your creators",
+                                "who are your developers",
+                                "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
+                                "creators",
+                                "who made you",
+                                "who designed you"
+                        ],
+                        "responses": [
+                                "Preeti developed me in April 2023, for their project.",
+                                "I was developed by Preeti.",
+                                "Young girl developed me, Preeti."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "You can call me Chatmaster.",
+                                "I'm Chatmaster",
+                                "I'm Chatmaster aka SIGCE's Chatbot."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the college open",
+                                "college timing",
+                                "what about college timing",
+                                "is college open on saturday",
+                                "tell something about college timing",
+                                "what is the college  hours",
+                                "when should i come to college",
+                                "when should i attend college",
+                                "what is my college time",
+                                "college timing",
+                                "timing college"
+                        ],
+                        "responses": [
+                                "College is open 9am-5pm Monday-Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "number",
+                        "patterns": [
+                                "more info",
+                                "contact info",
+                                "how to contact college",
+                                "college telephone number",
+                                "college number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "College phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "You can contact at 080809 49300"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in sigce",
+                                "what are the courses offered in your college?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in sigce",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at sigce?",
+                                "branches available at sigce?",
+                                "what are the courses in sigce?",
+                                "what are branches in sigce?",
+                                "what are courses in sigce?",
+                                "branches available in sigce?",
+                                "can you tell me the courses available in SIGCE?",
+                                "can you tell me the branches available in sigce?",
+                                "courses",
+                                "iot",
+                                "AI/ML",
+                                "ai/ml",
+                                "it",
+                                "IT"
+                        ],
+                        "responses": [
+                                "SIGCE offers : \n 1) Computer Engineering,\n 2) CSE Artificial Intelligence and Machine Learning,\n 3) IOT and Cybersecurity Including Blockchain Engineering and\n 4) Mechanical Engineering \n 5)Electronic and Telecommunication Engineering \n 6)Electrical Engineering."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "college fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees"
+                        ],
+                        "responses": [
+
+                                "If you're looking for information about the fee structure for the college, You can access the fee structure document by clicking on the link provided: https://drive.google.com/file/d/1OR9c-Wcjs3qIL06wAg1FxtHgJK1GqNur/view?usp=share_link."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is sigce college",
+                                "where is SIGCE college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "Smt. Indira Gandhi College Of Engineering,Plot No. 1, Sector 8, Ghansoli, Navi Mumbai -400701,Maharashtra."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel servive",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "Does college provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from college",
+                                "hostel college distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between college and hostel",
+                                "distance between hostel and college"
+                        ],
+                        "responses": [
+                                "Smt. Indira Gandhi College Of Engineering does not provide hostel facility."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "event",
+                        "patterns": [
+                                "events organised",
+                                "list of events",
+                                "list of events organised in college",
+                                "list of events conducted in college",
+                                "What events are conducted in college",
+                                "Are there any event held at college",
+                                "Events?",
+                                "big events?",
+                                "fest?",
+                                "fests?",
+                                "functions",
+                                "what are the events",
+                                "tell me about events",
+                                "what about events"
+                        ],
+                        "responses": [
+                                "Ignite is the biggest event celebrated in SIGCE apart from that many more events are there Cultural events, Sports Week and various other event conducted in the college. For more information click on following links --> http://sigce.edu.in/events/ignite.asp "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "day",
+                        "patterns": [
+                                "how many days are celebrated in sigce",
+                                "how many days are celebrated in sigce?",
+                                "list the days organised in college",
+                                "list of the days conducted in college",
+                                "What days are conducted in college",
+                                "Are there any days held at college",
+                                "days?",
+                                "days",
+                                "day",
+                                "what are the days",
+                                "tell me about days",
+                                "what about days"
+                        ],
+                        "responses": [
+                                "There are many days celebrated in SIGCE like Bollywood Day, Mismatch Day, Twinning Day, Traditional Day, etc. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "document",
+                        "patterns": [
+                                "document to bring",
+                                "documents needed for admision",
+                                "documents needed at the time of admission",
+                                "documents needed during admission",
+                                "documents required for admision",
+                                "documents required at the time of admission",
+                                "documents required during admission",
+                                "What document are required for admission",
+                                "Which document to bring for admission",
+                                "documents",
+                                "what documents do i need",
+                                "what documents do I need for admission",
+                                "documents needed"
+                        ],
+                        "responses": [
+                                "Thank you for your interest in admission. To know more about the admission process, please visit --> http://sigce.edu.in/admission.asp. And for more details and queries, kindly fill the form available at --> https://forms.gle/yNXXnAneyj8ewPeB6."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "floors",
+                        "patterns": [
+                                "size of campus",
+                                "building size",
+                                "How many floors does college have",
+                                "floors in college",
+                                "floors in college",
+                                "how tall is SIGCE college building",
+                                "floors"
+                        ],
+                        "responses": [
+                                "Smt. Indira Gandhi College Of Engineering has total 7 floors "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "syllabus",
+                        "patterns": [
+                                "Syllabus for CS",
+                                "Syllabus for all branch",
+                                "Syllabus for all branch",
+                                "what is the computer engineering syllabus",
+                                "syllabus",
+                                "what is the syllabus of Electrical Engineering",
+                                "syllabus",
+                                "What is the syllabus"
+                        ],
+                        "responses": [
+
+                                "To know about all branch syllabus visit -->  https://drive.google.com/drive/folders/1bpAr3ztXaeDss2uHKMOHRbs_5OtiYOdd?usp=share_link"
+                        ],
+                        "context_set": ""
+                },
+
+                {
+                        "tag": "timetable",
+                        "patterns": [
+                                "timetable for CS",
+                                "timetable for all branch",
+                                "timetable for all branchs",
+                                "what is the computer engineering timetable",
+                                "timetable",
+                                "what is the timetable of Electrical Engineering",
+                                "What is the timetable?"
+                        ],
+                        "responses": [
+
+                                "To know about all branch timetable visit -->  https://drive.google.com/drive/folders/1ug2NxmDFdC0BRI_odXcUIUjKQy4lUn5U?usp=share_link"
+                        ],
+                        "context_set": ""
+                },
+                {
+                    "tag": "library",
+                    "patterns": [
+                        "is there any library",
+                        "library facility",
+                        "library facilities",
+                        "do you have library",
+                        "does the college have library facility",
+                        "college library",
+                        "where can i get books",
+                        "book facility",
+                        "Where is library",
+                        "Library",
+                        "Tell me about library",
+                        "how many libraries"
+                    ],
+                    "responses": [
+                        "There is one library on third floor. To know more visit the following link: http://sigce.edu.in/academics/library.asp"
+                    ],
+                    "context_set": ""
+                },
+
+                {
+                        "tag": "infrastructure",
+                        "patterns": [
+                                "how is college infrastructure",
+                                "infrastructure",
+                                "college infrastructure"
+                        ],
+                        "responses": [
+                                "Smt. Indira Gandhi College Of Engineering has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "food facilities",
+                                "canteen facilities",
+                                "canteen facility",
+                                "is there any canteen",
+                                "Is there a cafetaria in college",
+                                "Does college have canteen",
+                                "Where is canteen",
+                                "where is cafetaria",
+                                "canteen",
+                                "Cafetaria"
+                        ],
+                        "responses": [
+                                "SIGCE has canteen with variety of food available"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "menu",
+                        "patterns": [
+                                "food menu",
+                                "food in canteen",
+                                "Whats there on menu",
+                                "what is available in college canteen",
+                                "what foods can we get in college canteen"
+                        ],
+                        "responses": [
+                                "Our Canteen serve Bread Pakoda, Chowmin, Thaali, Samosa, Dal Rice and many more on menu."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+                        "patterns": [
+                                "What is college placement",
+                                "Which companies visit in college",
+                                "What is average package",
+                                "companies visit",
+                                "placement",
+                                "recruitment",
+                                "companies"
+                        ],
+                        "responses": [
+                                "To know about placement visit --> http://sigce.edu.in/tpo.asp "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "package",
+                        "patterns": [
+                                "What is highest package offered to student till now.",
+                                "What is average package",
+                                "highest package",
+                                "package",
+                                "lpa",
+                                "students offered lpa",
+                                "highest lpa"
+                        ],
+                        "responses": [
+                                "Average package is 3.5 lpa - 4.0 lpa and till now offered to SIGCE student are :\n Higest Package - Sayali Shahaji Repale-ALBANERO-5.00LPA, \n Divya Bharambe-Capgemini-4.5LPA,\n Ritesh Agarwal-Capgemini-4.5LPA,\n Prathmesh Y Patil-Capgemini-4.5LPA,\n Vedant Hemant Tilvankar-Capgemini 4.25LPA,\n Sandesh Kamble-Wipro-4.25LPA, \n Yash Pangerkar-Capgemini-4.25LPA, \n Priya singh-Capgemini- 4.0LPA, \n Kashish Shailesh Gautam-TCS-4.00LPA, \n Priya singh-TCS-4.00LPA, \n Mandar choudhari-Capgemini- 4.00LPA, \n Mandar choudhari-Wipro-4.00LPA,\n Shruti Marathe Wipro-4.00LPA,\n Pranali Patil-Wipro-4.00LPA, \n Soham Patil-Wipro-4.00LPA, \n Abhijeet Mane-TCS-4.00LPA,\n Poorva Indulkar-TCS-4.00LPA "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "ece",
+                        "patterns": [
+                                "Who is extc HOD",
+                                "Where is ece HOD",
+                                "ece hod",
+                                "name of extc hod"
+                        ],
+                        "responses": [
+                                "Prof. V P Patil is HOD of EXTC/ECE Branch "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "cs",
+                        "patterns": [
+                                "Who is CS HOD",
+                                "Where is CS HOD",
+                                "CS hod",
+                                "name of CS hod"
+                        ],
+                        "responses": [
+                                "Prof. S N Deshpande is HOD of CS Branch "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "electrical",
+                        "patterns": [
+                                "Who is Electrical Engineering HOD",
+                                "Where is electrical HOD",
+                                "electrical hod",
+                                "name of electrical hod"
+                        ],
+                        "responses": [
+                                "Prof. Nishant B Joshi is HOD of Electrical Branch"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "ai/ml",
+                        "patterns": [
+                                "Who is CSE Artificial Intelligence and Machine Learning HOD",
+                                "Who is CSE ai/ml HOD",
+                                "Where is ai/ml HOD",
+                                "ai/ml hod",
+                                "name of ai/ml hod"
+                        ],
+                        "responses": [
+                                "Prof. Sonali Deshpande is HOD of AI and ML Branch"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "iot",
+                        "patterns": [
+                                "Who is IOT and Cybersecurity Including Blockchain HOD",
+                                "Who is Cybersecurity Including Blockchain HOD",
+                                "Who is IOT HOD",
+                                "Where is IOT HOD",
+                                "iot hod",
+                                "name of iot hod"
+                        ],
+                        "responses": [
+                                "Prof. Sonali Deshpande is HOD of IOT and Cybersecurity and Blockchain Branch"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "cybersecurity",
+                        "patterns": [
+                                "Who is IOT and Cybersecurity Including Blockchain HOD",
+                                "Who is Cybersecurity Including Blockchain HOD",
+                                "Who is IOT HOD",
+                                "Who is  cybersecurity HOD",
+                                "blockchain hod",
+                                "name of blockchain hod"
+                        ],
+                        "responses": [
+                                "Prof. Sonali Deshpande is HOD of IOT and Cybersecurity and Blockchain Branch"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "mechanical",
+                        "patterns": [
+                                "Who is Mechanical HOD",
+                                "Where is  mechanical HOD",
+                                "mechanical hod",
+                                "name of mechanical hod"
+                        ],
+                        "responses": [
+                                "Dr. H S Dhanavade is HOD of Mechanical Branch"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "principal",
+                        "patterns": [
+                                "what is the name of principal",
+                                "what is the principal name",
+                                "principal name",
+                                "Who is college principal",
+                                "Where is principal's office",
+                                "principal",
+                                "name of principal"
+                        ],
+                        "responses": [
+                                "Dr. Sunil S Chavan is college principal who is available on Ground floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "truste",
+                        "patterns": [
+                                "what is the name of truste",
+                                "what is the trustee name",
+                                "truste name",
+                                "Who is college truste",
+                                "Where is truste's office",
+                                "truste",
+                                "name of truste"
+                        ],
+                        "responses": [
+                                "Dr. Sunil R. Jadhav is college Trustee who is available on Ground floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "tpo",
+                        "patterns": [
+                                "what is the name of tpo",
+                                "what is the tpo placement sir name",
+                                "tpo name",
+                                "Who is college tpo",
+                                "Where is tpo office",
+                                "tpo",
+                                "name of tpo"
+                        ],
+                        "responses": [
+                                "TPO sir name is N Kharaje. \n Contact info--> Email ID: tpo@sigce.edu.in \n Phone no: 8433671007 \n TPO sir is available on Ground floor"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sem",
+                        "patterns": [
+                                "exam dates",
+                                "exam schedule",
+                                "When is semester exam",
+                                "Semester exam timetable",
+                                "sem",
+                                "semester",
+                                "exam",
+                                "when is exam",
+                                "exam timetable",
+                                "exam dates",
+                                "when is semester"
+                        ],
+                        "responses": [
+                                "Here is the Academic Calendar --> http://sigce.edu.in/mysigce/academiccal.asp "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "admission",
+                        "patterns": [
+                                "what is the process of admission",
+                                "what is the admission process",
+                                "How to take admission in your college",
+                                "What is the process for admission",
+                                "admission",
+                                "admission process"
+                        ],
+                        "responses": [
+                                "Application can also be submitted online through the University's site. For more detail visit to --> http://sigce.edu.in/admission."
+                        ],
+
+                        "context_set": ""
+                },
+
+                {
+                        "tag": "admission notification",
+                        "patterns": [
+                                "How can I get admission notification",
+                                "show me admission notification",
+                                "How to get admission notification in your college",
+                                "What is admission notifiation",
+                                "admission notification"
+                        ],
+                        "responses": [
+                                "Application can also be submitted online through the University's site. For more detail visit to --> http://sigce.edu.in/admission."
+                        ],
+
+                        "context_set": ""
+                },
+
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities college provide",
+                                "College facility",
+                                "What are college facilities",
+                                "facilities",
+                                "facilities provided"
+                        ],
+                        "responses": [
+                                "SIGCE provides smart classroom,internet connection, Auditorium, library, canteen and also celebrates various events which you can check on this link --> http://sigce.edu.in/aspdat/page.asp?id=52"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "college intake",
+                        "patterns": [
+                                "max number of students",
+                                "number of seats per branch",
+                                "number of seats in each branch",
+                                "maximum number of seats",
+                                "maximum students intake",
+                                "What is college intake",
+                                "how many stundent are taken in each branch",
+                                "seat allotment",
+                                "seats"
+                        ],
+                        "responses": [
+                                "For CS, CS IOT, CS AI/ML, Electrical and Mechanical 60 per branch "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "uniform",
+                        "patterns": [
+                                "college dress code",
+                                "college dresscode",
+                                "what is the uniform",
+                                "can we wear casuals",
+                                "Does college have an uniform",
+                                "Is there any uniform",
+                                "uniform",
+                                "what about uniform",
+                                "do we have to wear uniform"
+                        ],
+                        "responses": [
+                                "SIGCE does not have Uniform"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "committee",
+                        "patterns": [
+                                "what are the different committe in college",
+                                "different committee in college",
+                                "Are there any committee in college",
+                                "Give me committee details",
+                                "committee",
+                                "how many committee are there in college"
+                        ],
+                        "responses": [
+                                "There are various committe in college you can see at --> http://sigce.edu.in/management.asp "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "random",
+                        "patterns": [
+                                
+                                "I love you",
+                                "Will you marry me",
+                                "Do you love me"
+                        ],
+                        "responses": [
+                                "I am not program for this please ask appropriate query"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "swear",
+                        "patterns": [
+                                "fuck",
+                                "bitch",
+                                "shut up",
+                                "helll",
+                                "stupid",
+                                "idiot",
+                                "dumb ass",
+                                "asshole",
+                                "fucker"
+                        ],
+                        "responses": [
+                                "please use appropriate language",
+                                "Maintaining decency would be appreciated"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "vacation",
+                        "patterns": [
+                                "holidays",
+                                "when will semester starts",
+                                "when will semester end",
+                                "when is the holidays",
+                                "list of holidays",
+                                "about vacations",
+                                "about holidays",
+                                "When is vacation",
+                                "When is holidays",
+                                "how long will be the vacation"
+                        ],
+                        "responses": [
+                                "Please refer academic calendar  -->  http://sigce.edu.in/mysigce/academiccal.asp"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I can answer to low-intermediate questions regarding college",
+                                "You can ask me questions regarding college, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"ragging",
+                        "patterns":[
+                                "ragging",
+                                "is ragging practice active in college",
+                                "does college have any antiragging facility",
+                                "is there any ragging cases",
+                                "is ragging done here",
+                                "ragging juniors",
+                                "ragging history",
+                                "ragging incidents"
+                                
+                        ],
+                        "responses": [
+                                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+                        ]
+
+                },
+                {
+                        "tag":"hod",
+                        "patterns":[
+                                "hod",
+                                "hod name",
+                                "who is the hod"
+                        ],
+                        "responses":[
+                                "HODs differ for each branch, please be more specific like: (CS HOD)"
+                        ]
+                },
+                {
+                        "tag":"transport",
+                        "patterns":[
+                                "dtc bus route",
+                                "mode of transportation",
+                                "how to get to college",
+                                "buses for college",
+                                "how can i reach college",
+                                "college buses",
+                                "bus routes",
+                                "how can I reach college",
+                                "list of buses for travelling",
+                                "does 835 goes to college",
+                                "does 835 goes to rawta mor"
+                                
+                        ],
+                        "responses":[
+                                "After you reach at Ghansoli Station you can take Auto from station to college or you can come by walk it will take 10-15 mins. "
+                        ]
+                },
+                {
+                        "tag": "metro",
+                        "patterns":[
+                                "nearest metro station",
+                                "what is the nearest metro station",
+                                "which metro station is near",
+                                "closest metro station",
+                                "which metro station is closest",
+                                "nearby metro stations",
+                                "metro",
+                                "metro station nearby"
+                        ],
+                        "responses":[
+                                "Ghansoli station is nearest and there is no metro near Transharbour line."
+                        ]
+                },
+                {
+                        "tag": "scholarship",
+                        "patterns": [
+                            "Do you offer scholarships?",
+                            "Can you tell me about your scholarship programs?",
+                            "How do I apply for a scholarship?",
+                            "What are the requirements for a scholarship?",
+                            "Are there any scholarship deadlines I should be aware of?",
+                            "What types of scholarships do you offer?",
+                            "Can international students apply for scholarships?",
+                            "What is the scholarship application process?"
+                        ],
+                        "responses": [
+                            "Yes, we offer scholarships to qualified students who meet our eligibility criteria. Our scholarship programs vary, and we offer different types of scholarships for different fields of study. To apply for a scholarship, you must submit an application along with any required documentation and meet the specified requirements."
+                        ]
+                },
+                {
+                        "tag": "social_media",
+                        "patterns": [
+                            "What are your social media accounts?",
+                            "Can I follow you on social media?",
+                            "Where can I find you on Instagram?",
+                            "Do you have a YouTube channel?",
+                            "Can you share your social media links?",
+                            "Are you active on social media?",
+                            "What is your Instagram handle?",
+                            "Can I connect with you on social media?"
+                        ],
+                        "responses": [
+                            "You can find us on Instagram and YouTube. Here are the links:\n\nInstagram: https://www.instagram.com/sigce/\nYouTube: https://www.youtube.com/channel/UCpAd0ErzPzs8JhDdtmdjKbw"
+                        ]
+                },
+                {
+                        "tag": "sports",
+                        "patterns": [
+                            "What sports are available at this facility?",
+                            "Do you offer any team sports?",
+                            "Can you tell me about your sports programs?",
+                            "Are there any sports leagues or clubs here?",
+                            "What kind of sports equipment do you have?",
+                            "Do you have any sports tournaments coming up?",
+                            "What are the rules for using the sports facilities?",
+                            "What sports are popular in this area?"
+                        ],
+                        "responses": [
+                            "We offer a variety of sports programs and activities, including basketball, soccer, volleyball, tennis, swimming, and more."
+                        ]
+                }
+
+                
+        ]
+}
