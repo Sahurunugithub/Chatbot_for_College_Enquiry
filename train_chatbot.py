@@ -3,16 +3,13 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import sent_tokenize
 lemmatizer = WordNetLemmatizer()
 import json
-import pickle
 # import chatbot3
 import tensorflow as tf
 import pickle
 import numpy as np
 from tensorflow import keras
-from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
-from tensorflow.keras.optimizers import legacy as keras_legacy
 from tensorflow.keras.optimizers.schedules import ExponentialDecay
 
 sgd = tf.keras.optimizers.SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
